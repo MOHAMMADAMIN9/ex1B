@@ -1,0 +1,21 @@
+<!--
+  home.ejs
+  Author: Mohammad Amin
+  Date: June 2025
+  Description: User home page after login
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Home</title>
+  <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+  <h1>Welcome, <%= user %>!</h1>
+  <img src="/<%= pic %>" alt="Profile Picture" width="150" />
+  <p>You are logged in.</p>
+  <p><a href="/logout">Logout</a></p>
+</body>
+</html>
